@@ -44,5 +44,9 @@
     padding: 5px 24px 5px 2px;
     background-color: #ff1b2c;
     border-radius: 30px;
-
+    cursor: pointer;
 }
+
+/* 
+    background-color:#4de82f ;
+    padding: 5px 3px 5px 24px; */
