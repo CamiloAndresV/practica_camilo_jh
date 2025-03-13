@@ -2,5 +2,47 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #48e;
 }
 
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.menu ul li{
+    padding: 4px;
+    font-size: 22px;
+}
+/* hover */
+.menu ul li:hover {
+    cursor: poiner;
+    background-color: #122b3f;
+    padding: 4px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.boton-tema{
+    padding: 5px 24px 5px 2px;
+    background-color: #ff1b2c;
+    border-radius: 30px;
+
+}
